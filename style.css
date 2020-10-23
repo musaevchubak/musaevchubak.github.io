@@ -1,0 +1,416 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed';
+}
+.header-container{
+    background: url("img/Rectangle 43.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+li{
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.phone{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.phone img {
+    position: absolute;
+    top: 8%;
+    left: 74%;
+}
+.abs{
+    position: absolute;
+    left: 280px;
+    top: 252px;
+    font-size: 250px;
+    line-height: 334px;
+    color: #000000;
+}
+.excluzive {
+    position: absolute;
+    font-size: 65px;
+    font-style: italic;
+    padding-left: 62%;
+    padding-top: 18%;
+    font-weight: normal;
+
+}
+
+.main-block2 img {
+    position: absolute;
+    width: 330px;
+    height: 125px;
+    left: 360px;
+    top: 110%;
+    font-size: 250px;
+    line-height: 334px;
+    color: #000000;
+}
+.main-block2 p {
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    left: 541px;
+    top: 1032px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.rectange19{
+    position: absolute;
+    width: 900px;
+    height: 1153px;
+    left: 0px;
+    top: 1150px;
+    background: url("img/Rectangle 19.jpg") 0 0 no-repeat;
+    margin-top: 70px;
+
+}
+.img-text-block{
+    display: flex;
+    justify-content: space-between;
+}
+.text-block {
+    position: absolute;
+    width: 545px;
+    height: 84px;
+    left: 1015px;
+    top: 1220px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 25px;
+}
+.text-1, .text-2, .text-3,.text-4{
+    padding-top: 9%;
+}
+.main-block3{
+    position: absolute;
+    width: 330px;
+    height: 125px;
+    left: 360px;
+    top: 2412px;
+    line-height: 128px;
+    color: #E2AB3F;
+    top: 2200px;
+    
+}
+.main-block3 p{
+    color: #000000;
+    font-style: italic;
+    margin-top: -25%;
+    margin-left: 74%;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.rectange22{
+    position: absolute;
+    width: 772px;
+    height: 1095px;
+    left: 960px;
+    top: 2412px;
+    background:url(img/Rectangle\ 22.png) 0 0 no-repeat;
+}
+.main-block3{
+    padding-top: 8%;
+}
+
+.main-block3-item{
+    margin-top: 100%;
+    padding-left: 20%;
+}
+.main-block3-item h3{
+    font-size: 24px;
+    color: #000000;
+}
+.main-block3-item p{
+    font-size: 24px;
+    color: #000000;
+    width: 17%;
+}
+.reservation{
+    border: 1px solid #E2AB3F;
+    text-transform: uppercase;
+    margin-top: 8%;
+    padding: 20px 0 20px 20px;
+    width: 280px;
+}
+.text-1 {
+    text-align: left;
+    width: 100%;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    margin: 0 auto;
+}
+.museum{
+    width: 64%;
+}
+
+/* hotel-block*/
+
+.hotel-block{
+    padding-left: 15%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hotel-text-photo{
+    width: 50%;
+}
+.hotel-text-photo p{
+    width: 600px;
+    font-size: 18px;
+    padding-left: 6%;
+
+}
+
+.hotel-img img {
+    padding-top: 5%;
+    height: 671px;
+}
+.hotel-block {
+    content: "";
+    background: url(img/Hotel.png) 25% 14% no-repeat;
+    position: absolute;
+}
+.sultan {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.photo-block img{
+    padding-top: 6%;
+    padding-left: 6%;
+}
+
+/* price*/ 
+
+.img-heading img{
+    position: absolute;
+    width: 210px;
+    height: 103px;
+    left: 320px;
+    top: 528%;
+}
+.price-text{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70%;
+    text-align: center;
+}
+
+
+.cost {
+    position: absolute;
+    width: 185px;
+    height: 30px;
+    left: 458px;
+    top: 4692px;
+    font-size: 24px;
+    font-style: italic;
+}
+.price-text-2{
+    text-align: left;
+    padding-top: 9%;
+    padding-left: 19%;
+    width: 42%;
+    font-size: 18px;
+}
+ .text-2, p, h3{
+     font-size: 18px;
+ }
+
+ /*sectiin date*/
+
+.date-img{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.date{
+    padding-left: 18%;
+    padding-top: 10%;
+}
+.tour, .tour-2 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 110px;
+    margin-top: -2px;
+}
+.tour-2{
+    padding-left: 67%;
+}
+
+.numeral{
+    padding-left: 40%;
+}
+.application{
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 25%;
+}
+.name, .telephone{
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 80%;
+    padding: 10px 20px;
+}
+.telephone{
+    margin-top: 20px;
+}
+.application-2 {
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    width: 52%;
+    margin-top: 14%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 10%;
+}
+.rec55{
+    height: 960px;
+}
+
+/*footer*/
+
+.footer-img{
+    position: absolute;
+    width: 1730px;
+    height: 750px;
+    left: 0px;
+    top: 6602px;
+}
+.footer-inner-img{
+    position: absolute;
+    width: 356px;
+    height: 527px;
+    left: 463px;
+    top: 6722px;
+}
+.contact{
+    position: absolute;
+    width: 273px;
+    height: 89px;
+    left: 519px;
+    top: 6769px;
+}
+.footer-phone {
+    position: absolute;
+    width: 142px;
+    height: 21px;
+    left: 586px;
+    top: 6886px;
+}
+
+.email{
+    position: absolute;
+    width: 209px;
+    height: 21px;
+    left: 559px;
+    top: 6949px;
+}
+.vec1 {
+    position: absolute;
+    left: 29.07%;
+    right: 6.13%;
+    top: 788%;
+    bottom: 0%;
+}
+.vec2 {
+    position: absolute;
+    left: 30.7%;
+    right: 20.17%;
+    top: 788%;
+    bottom: 48.73%;
+}
+.vec3 {
+    position: absolute;
+    left: 31.51%;
+    right: 0.07%;
+    top: 787%;
+    bottom: 52.6%;
+}
+.em-1 {
+    position: absolute;
+    left: 491px;
+    right: 0%;
+    top: 6959px;
+    bottom: 11.95%;
+}
+
+.em-2 {
+    position: absolute;
+    left: 28.54%;
+    right: 10.51%;
+    top: 796%;
+    bottom: 22.5%;
+}
+
+.youtube {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    left: 564px;
+    top: 7025px;
+}
+.ytbbtn {
+    position: absolute;
+    left: 39.77%;
+    right: 39.96%;
+    top: 803%;
+    bottom: 40.63%;
+}
+.facebook{
+    position: absolute;
+    top: 803%;
+    left: 36%;
+}
+
+.dream{
+    position: absolute;
+    width: 595px;
+    height: 110px;
+    left: 971px;
+    top: 6913px;
+}
